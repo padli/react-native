@@ -102,5 +102,6 @@
 @interface RCTBridge (RCTDevMenu)
 
 @property (nonatomic, readonly) RCTDevMenu *devMenu;
+@property (nonatomic, readonly) RCTDevMenu *devMenu;
 
 @end
