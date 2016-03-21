@@ -91,6 +91,9 @@ if (cli) {
       );
       process.exit(1);
     }
+  switch (){
+    
+  }  
     break;
   default:
     console.error(
