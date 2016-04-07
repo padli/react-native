@@ -39,7 +39,6 @@ __forceinline const float fmaxf(const float a, const float b) {
   return (a > b) ? a : b;
 }
 #endif
-#endif
 
 bool isUndefined(float value) {
   return isnan(value);
