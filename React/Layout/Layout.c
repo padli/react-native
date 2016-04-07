@@ -1282,5 +1282,6 @@ void layoutNode(css_node_t *node, float parentMaxWidth, float parentMaxHeight, c
     layout->last_dimensions[CSS_HEIGHT] = layout->dimensions[CSS_HEIGHT];
     layout->last_position[CSS_TOP] = layout->position[CSS_TOP];
     layout->last_position[CSS_LEFT] = layout->position[CSS_LEFT];
+    layout->last_position[CSS_RIGHT] = layout->position [CSS_RIGHT];
   }
 }
