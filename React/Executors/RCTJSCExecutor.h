@@ -28,6 +28,6 @@ RCT_EXTERN NSString *const RCTJavaScriptContextCreatedNotification;
 /**
  * Uses a JavaScriptCore context as the execution engine.
  */
-@interface RCTJSCExecutor : NSObject <RCTJavaScriptExecutor>
+@interface RCTJSCExecutor :  <RCTJavaScriptExecutor>
 
 @end
